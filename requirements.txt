@@ -1,0 +1,19 @@
+# Real-Time Object Detection and Live Video Analytics Using YOLOv8
+# Dependencies for Apple Silicon (M2, macOS)
+
+torch>=2.2.0
+torchvision>=0.17.0
+ultralytics>=8.1.0
+opencv-python>=4.8.0
+fastapi>=0.110.0
+uvicorn>=0.27.0
+python-multipart>=0.0.9
+pydantic>=2.6.0
+plotly>=5.18.0
+pandas>=2.0.0
+numpy>=1.24.0
+pillow>=10.0.0
+psutil>=5.9.0
+lap>=0.5.12
+certifi>=2023.7.22
+yt-dlp>=2024.1.0
