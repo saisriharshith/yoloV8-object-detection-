@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  yolo-analytics:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: yolo_analytics_app
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./data/outputs:/app/data/outputs
+      - ./data/inputs:/app/data/inputs
+    restart: unless-stopped
